@@ -1,0 +1,19 @@
+.divOuter{
+    border: 5px solid white;
+    height: 200px;
+    width: 200px;
+    animation-name: fade;
+    animation-duration: 4s;
+    /* animation-timing-function: linear; */
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+/* @keyframes fade {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} */
