@@ -1,13 +1,363 @@
-.divOuter{
-    border: 5px solid white;
-    height: 200px;
-    width: 200px;
-    animation-name: fade;
-    animation-duration: 4s;
-    /* animation-timing-function: linear; */
-    animation-iteration-count: infinite;
-    animation-delay: 1s;
+* {
+  margin: 0;
+  padding: 0;
 }
+/* Section 1 */
+
+/* Slide 1 */
+.yellowDiv {
+  border: 1px solid #f1e25d;
+  height: 55%;
+  width: 50%;
+  position: absolute;
+  background-color: #f1e25d;
+  left: -20%;
+  top: -10%;
+  border-radius: 39% 91% 49% 77% / 40% 53% 67% 86%;
+  animation-name: fade;
+  animation-duration: 4s;
+  /* animation-timing-function: linear; */
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+.pinkDiv {
+  border: 1px solid #ff3b70;
+  height: 40%;
+  width: 35%;
+  position: absolute;
+  background-color: #ff3b70;
+  right: -10%;
+  bottom: 20%;
+  border-radius: 40% 60% 64% 36% / 70% 18% 82% 30%;
+}
+.blueDiv {
+  border: 1px solid #76acff;
+  height: 30%;
+  width: 25%;
+  position: absolute;
+  background-color: #76acff;
+  right: 15%;
+  bottom: 0%;
+  border-radius: 48% 52% 56% 44% / 71% 35% 65% 29%;
+}
+
+#companyNameSection1 {
+  /* border: 1px solid red; */
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; */
+  position: absolute;
+  /* font-size: 25px; */
+  top: 30%;
+  left: 10%;
+  /* bottom: 0; */
+}
+#textSection1 {
+  position: absolute;
+  top: 45%;
+  left: 11%;
+}
+
+#textSection1::after {
+  content: "Topaz";
+  font-weight: bold;
+}
+/* Slide 1 Complete */
+/* Section 1 Complete */
+
+/* Section 2 */
+
+/* Slide 1 */
+
+.blueDivSection2 {
+  border: 1px solid #76acff;
+  height: 40%;
+  width: 35%;
+  position: absolute;
+  background-color: #76acff;
+  left: -10%;
+  top: 0%;
+  border-radius: 48% 52% 56% 44% / 71% 35% 65% 29%;
+  z-index: -100;
+}
+
+.pinkDivSection2 {
+  border: 1px solid #ff3b70;
+  height: 20%;
+  width: 20%;
+  position: absolute;
+  background-color: #ff3b70;
+  right: 5%;
+  bottom: 10%;
+  border-radius: 39% 91% 49% 77% / 40% 53% 67% 86%;
+  z-index: 10;
+}
+.yellowDivSection2 {
+  border: 1px solid #f1e25d;
+  height: 10%;
+  width: 10%;
+  position: absolute;
+  background-color: #f1e25d;
+  right: 20%;
+  bottom: 15%;
+  border-radius: 39% 91% 49% 77% / 40% 53% 67% 86%;
+  rotate: 60deg;
+}
+/* Slide 1 Complete */
+
+/* Slide 2  */
+
+.hrSection2Slide2 {
+  border: none;
+  height: 2px;
+  width: 100%;
+  background: #000;
+  position: absolute;
+  top: 50%;
+}
+
+.hrSection2Slide21st {
+  border: none;
+  height: 2px;
+  width: 10%;
+  background: #000;
+  position: absolute;
+  top: 57%;
+  /* justify-self: ; */
+  rotate: 90deg;
+}
+.hrSection2Slide22nd {
+  border: none;
+  height: 2px;
+  width: 10%;
+  background: #000;
+  position: absolute;
+  top: 43%;
+  left: 22.5%;
+  /* justify-self: ; */
+  rotate: 90deg;
+}
+
+.hrSection2Slide23rd {
+  border: none;
+  height: 2px;
+  width: 10%;
+  background: #000;
+  position: absolute;
+  top: 57%;
+  left: 45%;
+  /* right: 0; */
+  /* justify-self: ; */
+  rotate: 90deg;
+}
+.hrSection2Slide24th {
+  border: none;
+  height: 2px;
+  width: 10%;
+  background: #000;
+  position: absolute;
+  top: 43%;
+  right: 22.5%;
+  /* justify-self: ; */
+  rotate: 90deg;
+}
+
+.hrSection2Slide25th {
+  border: none;
+  height: 2px;
+  width: 10%;
+  background: #000;
+  position: absolute;
+  top: 57%;
+  /* left: 50%; */
+  right: 0;
+  /* justify-self: ; */
+  rotate: 90deg;
+}
+.blueDivSection2Slide2div1 {
+  border: 1px solid #76acff;
+  height: 10%;
+  width: 10%;
+  position: absolute;
+  left: 0%;
+  top: 65%;
+  background-color: #76acff;
+  border-radius: 48% 52% 56% 44% / 71% 35% 65% 29%;
+  z-index: -100;
+}
+.pinkDivSection2Slide2div2 {
+  border: 1px solid #ff3b70;
+  height: 10%;
+  width: 10%;
+  position: absolute;
+  background-color: #ff3b70;
+  left: 22.5%;
+  top: 25%;
+  border-radius: 48% 52% 56% 44% / 71% 35% 65% 29%;
+  z-index: -100;
+}
+
+.yellowDivSection2Slide2div3 {
+  border: 1px solid #f1e25d;
+  height: 10%;
+  width: 10%;
+  position: absolute;
+  background-color: #f1e25d;
+  left: 45%;
+  top: 65%;
+  border-radius: 48% 52% 56% 44% / 71% 35% 65% 29%;
+  z-index: -100;
+}
+
+.blueDivSection2Slide2div4 {
+  border: 1px solid #76acff;
+  height: 10%;
+  width: 10%;
+  position: absolute;
+  background-color: #76acff;
+  right: 22.5%;
+  top: 25%;
+  border-radius: 48% 52% 56% 44% / 71% 35% 65% 29%;
+  z-index: -100;
+  /* rotate: 90deg; */
+}
+
+.pinkDivSection2Slide2div5 {
+  border: 1px solid #ff3b70;
+  height: 10%;
+  width: 10%;
+  position: absolute;
+  background-color: #ff3b70;
+  right: 0%;
+  top: 65%;
+  border-radius: 48% 52% 56% 44% / 71% 35% 65% 29%;
+  /* z-index: -100; */
+}
+
+.section2Slide2divText1 {
+  position: absolute;
+  left: -5%;
+  top: 75%;
+}
+.section2Slide2divText2 {
+  position: absolute;
+  left: 17.5%;
+  top: 15%;
+}
+.section2Slide2divText3 {
+  position: absolute;
+  left: 40%;
+  top: 75%;
+}
+.section2Slide2divText4 {
+  position: absolute;
+  right: 17.5%;
+  top: 15%;
+}
+.section2Slide2divText5 {
+  position: absolute;
+  right: -10%;
+  top: 75%;
+}
+/* Slide 2 Complete */
+
+/* Slide 3 */
+.section2Slide3Div1 {
+  color: white;
+  font-size: 50px;
+  font-family: cursive;
+  border: 1px solid #76acff;
+  height: 10%;
+  width: 10%;
+  position: absolute;
+  left: 10%;
+  top: 0%;
+  background-color: #76acff;
+  border-radius: 48% 52% 56% 44% / 71% 35% 65% 29%;
+  /* z-index: -100; */
+}
+.section2Slide3Div2 {
+  color: white;
+  font-size: 50px;
+  font-family: cursive;
+  border: 1px solid #ff3b70;
+  height: 10%;
+  width: 10%;
+  position: absolute;
+  left: 60%;
+  top: 0%;
+  background-color: #ff3b70;
+  border-radius: 48% 52% 56% 44% / 71% 35% 65% 29%;
+}
+.section2Slide3Text1 {
+  /* font-family: ; */
+  font-weight: bold;
+  /* color: white; */
+  font-size: 50px;
+  /* font-family: cursive; */
+  /* border: 1px solid #76acff; */
+  height: 10%;
+  width: 10%;
+  position: absolute;
+  left: 22%;
+  top: 0%;
+  /* background-color: #76acff; */
+  /* border-radius: 48% 52% 56% 44% / 71% 35% 65% 29%; */
+}
+.section2Slide3Text2 {
+  font-weight: bold;
+  /* color: white; */
+  font-size: 50px;
+  /* font-family: cursive; */
+  /* border: 1px solid #76acff; */
+  height: 10%;
+  width: 10%;
+  position: absolute;
+  right: 18%;
+  top: 0%;
+}
+
+.section2Slide3HrBlue {
+  border: none;
+  background: #76acff;
+  height: 4px;
+  width: 50vh;
+  rotate: 90deg;
+
+  position: absolute;
+  top: 40%;
+  left: -7.25%;
+}
+.section2Slide3HrPink {
+  border: none;
+  background: #ff3b70;
+  height: 4px;
+  width: 50vh;
+  rotate: 90deg;
+
+  position: absolute;
+  top: 40%;
+  right: 13.25%;
+}
+
+.section2Slide3Props {
+  /* height: 100px;
+  width: 100px; */
+  /* border: 1px solid red; */
+  position: absolute;
+  top: 10%;
+  left: 23%;
+}
+.section2Slide3Corns{
+  /* height: 100px;
+  width: 100px; */
+  /* border: 1px solid red; */
+  position: absolute;
+  top: 10%;
+  right: 17%;
+}
+
+
+/* Slide3 Complete */
+/* Section 2 Complete */
 
 /* @keyframes fade {
     0% {
@@ -17,3 +367,20 @@
         transform: rotate(360deg);
     }
 } */
+
+/* Sections CSS */
+.sections {
+  /* border: 1px solid cyan; */
+  height: 80vh;
+  width: 100%;
+  margin-top: 0px;
+  border: none;
+}
+
+#reveal {
+  /* border: 10px solid blue; */
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  /* height: ; */
+}
