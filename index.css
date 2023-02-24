@@ -14,11 +14,7 @@
   left: -20%;
   top: -10%;
   border-radius: 39% 91% 49% 77% / 40% 53% 67% 86%;
-  animation-name: fade;
-  animation-duration: 4s;
-  /* animation-timing-function: linear; */
-  animation-iteration-count: infinite;
-  animation-delay: 1s;
+  z-index: -1;
 }
 .pinkDiv {
   border: 1px solid #ff3b70;
@@ -28,6 +24,7 @@
   background-color: #ff3b70;
   right: -10%;
   bottom: 20%;
+  z-index: -1;
   border-radius: 40% 60% 64% 36% / 70% 18% 82% 30%;
 }
 .blueDiv {
@@ -39,6 +36,12 @@
   right: 15%;
   bottom: 0%;
   border-radius: 48% 52% 56% 44% / 71% 35% 65% 29%;
+  z-index: 0;
+}
+#blueDiv10{
+  bottom: 0;
+  right: -10%;
+  z-index: 1;
 }
 
 #companyNameSection1 {
@@ -59,6 +62,12 @@
 #textSection1::after {
   content: "Topaz";
   font-weight: bold;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+.imgZind{
+  z-index: 100;
+  
 }
 /* Slide 1 Complete */
 /* Section 1 Complete */
@@ -101,7 +110,96 @@
   border-radius: 39% 91% 49% 77% / 40% 53% 67% 86%;
   rotate: 60deg;
 }
+
+.section2Slide1H2 {
+  position: absolute;
+  top: 15%;
+  left: 20%;
+}
+.section2Slide1List {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
 /* Slide 1 Complete */
+
+/* Additional Slide For Products */
+
+.section2SlideAddyellowDiv {
+  border: 1px solid #f1e25d;
+  height: 30%;
+  width: 25%;
+  position: absolute;
+  background-color: #f1e25d;
+  right: 20%;
+  top: 20%;
+  border-radius: 53% 47% 47% 52% / 46% 28% 76% 54%;
+  rotate: -90deg;
+}
+.section2SlideAddyellowDiv img {
+  rotate: 20deg;
+  height: 70%;
+}
+
+.section2SlideAddpinkDiv {
+  border: 1px solid #ff3b70;
+  height: 20%;
+  width: 20%;
+  position: absolute;
+  /* background-color: #ff3b70; */
+  right: 0%;
+  bottom: 20%;
+  border-radius: 40% 60% 64% 36% / 70% 18% 82% 30%;
+  rotate: -135deg;
+}
+.section2SlideAddpinkDiv img {
+  height: 75%;
+  rotate: 20deg;
+}
+.section2SlideAddblueDiv {
+  border: 1px solid #76acff;
+  height: 35%;
+  width: 30%;
+  position: absolute;
+  background-color: #76acff;
+  left: 10%;
+  bottom: 0%;
+  border-radius: 48% 52% 56% 44% / 71% 35% 65% 29%;
+}
+.section2SlideAddblueDiv img {
+  rotate: 20deg;
+}
+.section2SlideAppGreenDiv {
+  border: 1.5px solid rgb(81, 243, 32);
+  height: 35%;
+  width: 30%;
+  position: absolute;
+  background-color: white;
+  left: 10%;
+  bottom: 50%;
+  border-radius: 48% 52% 56% 44% / 71% 35% 65% 29%;
+}
+.section2SlideAppGreenDiv img {
+  height: 80%;
+  rotate: 20deg;
+}
+.section2SlideAddWhiteDiv{
+  border: 1.5px solid rgb(81, 243, 32);
+  height: 20%;
+  width: 20%;
+  position: absolute;
+  background-color: white;
+  right: 20%;
+  bottom: 0%;
+  border-radius: 48% 52% 56% 44% / 71% 35% 65% 29%;
+  rotate: 120deg;
+}
+.section2SlideAddWhiteDiv img{
+  height: 70%;
+  rotate: 200deg;
+}
+
+/* Additional Slides for Products Done */
 
 /* Slide 2  */
 
@@ -295,7 +393,7 @@
   /* font-family: cursive; */
   /* border: 1px solid #76acff; */
   height: 10%;
-  width: 10%;
+  width: auto;
   position: absolute;
   left: 22%;
   top: 0%;
@@ -324,7 +422,7 @@
 
   position: absolute;
   top: 40%;
-  left: -7.25%;
+  left: -9%;
 }
 .section2Slide3HrPink {
   border: none;
@@ -339,26 +437,66 @@
 }
 
 .section2Slide3Props {
-  /* height: 100px;
-  width: 100px; */
+  height: fit-content;
+  width: auto;
   /* border: 1px solid red; */
   position: absolute;
   top: 10%;
   left: 23%;
+  /* font-size: 20px; */
 }
-.section2Slide3Corns{
-  /* height: 100px;
-  width: 100px; */
+.section2Slide3Corns {
+  height: fit-content;
+  width: 30%;
   /* border: 1px solid red; */
   position: absolute;
   top: 10%;
-  right: 17%;
+  right: -3.5%;
+  font-size: 20px;
 }
-
-
+.svg{
+  position: absolute;
+  bottom: 0;
+  width: 200%;
+  left: -50%;
+  z-index: -1;
+}
 /* Slide3 Complete */
 /* Section 2 Complete */
 
+/* section3 */
+
+#yellowDiv{
+  border: 1px solid #f1e25d;
+  height: 55%;
+  width: 50%;
+  position: absolute;
+  background-color: #f1e25d;
+  left: 25%;
+  top: 20%;
+  border-radius: 39% 91% 49% 77% / 40% 53% 67% 86%;
+  font-size: 90px;
+  align-items: center;
+  text-align: center;
+}
+#yellowDiv p{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 25%;
+  /* bottom: 0; */
+}
+#blueDiv{
+  bottom: 10%;
+  text-align: center;
+}
+#blueDiv p{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 25%;
+}
+/* section 3 Completed */
 /* @keyframes fade {
     0% {
         transform: rotate(0deg);
